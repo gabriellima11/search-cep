@@ -68,9 +68,17 @@ export const Container = styled.section`
         color: #fff;
     }
 
-    @media screen and (max-width: 400px) {
+    .maps{
+        width: 700px;
+    }
+
+    @media screen and (max-width: 720px) {
          .input-cep{
             width: 15rem;
+        }
+
+        .maps{
+            width: 320px;
         }
     }
 

@@ -47,7 +47,6 @@ export const ZipCodeInput = () => {
                     title='Mapa'
                     src={`https://www.google.com/maps/embed/v1/search?key=AIzaSyBpUupMGNXDirVekwjLkuQfQHaIstLwbjE
               &q=${cepData?.cep}`}
-                    width="700"
                     height="230"
                     style={{ border: 0 }}
                     loading="lazy"
